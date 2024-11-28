@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+main{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(hossein-azarbad-GVg-x4MiriM-unsplash.jpg);
+  background-size: cover;
+background-position: 100% 30%;
+}
+.overlay{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.089);
+  display: flex;
+  
+}
+.top{
+  height: 100vh;
+  width: 70vw;
+
+
+}
+
+
+nav{
+  height: 10vh;
+  width: 100vw;
+background-color: rgba(44, 2, 2, 0.664);
+  padding: 1vw 4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.n-left{
+  width: 10vw;
+  display: flex;
+ 
+  align-items: center;
+ color: rgb(255, 255, 255);
+}
+.n-left img{
+  width: 4vw; 
+
+}
+.n-left h1{
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+  
+}
+.n-right{
+width: 65vw;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  gap: 5vw;
+}
+.nav-btn{
+  display: flex;
+  gap: 1vw;
+
+}
+.links{
+  display: flex;
+gap: 4vw;
+align-items: center;
+
+}
+.links a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+
+  
+}
+.n-right button{
+  padding: 5px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.top-content{
+  padding: 4vw 4vw ;
+  color: white;
+ display: flex;
+ flex-direction: column;
+ gap: 1vw;
+
+  
+
+}
+.top-content h1{
+  font-size: 70px ;
+  
+}
+.top-content p{
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.top-btn{
+  display: flex;
+  gap: 1vw;
+}
+.top-content button{
+  height: 50px;
+ width: 150px;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+span{
+  color: yellow;
+  font-size: 80px;
+}
+.bottom{
+  height: 90vh;
+  width: 30vw;
+ background-color: rgba(0, 0, 0, 0.507);
+  display: flex;
+  flex-direction: column;
+
+  gap: 1vw;
+  padding: 4vw 3vw;
+  color: white;
+  margin-top: 84px;
+}
+
+.bottom h1{
+  font-size: 70px;
+  font-weight: 600;
+  color: rgb(255, 238, 0);
+
+}
+.bottom p{
+  font-size: 25px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+.btn1:hover{
+   background-color: yellow;
+   color: rgb(0, 0, 0);
+scale: 0.95;
+cursor: pointer;
+font-weight: 500;
+text-decoration: underline;
+}
+
