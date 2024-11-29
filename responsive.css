@@ -1,0 +1,119 @@
+@media screen and (max-width: 600px) {
+main{
+  background-position: 50% 0%;
+}
+  .overlay {
+    flex-direction: column;
+  }
+
+  .top {
+    height: 40vh;
+    width: 100vw;
+  }
+
+  .n-left h1 {
+    font-size: 10px;
+  }
+
+  nav {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    gap: 1vw;
+
+  }
+
+  .n-right {
+
+    gap: 5px;
+  }
+
+  .n-right .links {
+    gap: 5px;
+  }
+
+  .links a {
+    font-size: 6px;
+    letter-spacing: 0;
+  }
+
+  .n-right button {
+    padding: 2px 5px;
+    border: none;
+    font-size: 7px;
+    border-radius: 8px;
+  }
+
+  .top-content {
+    padding: 10vw 10vw;
+    gap: 1vw;
+  }
+
+  .top-content h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  span {
+    font-size: 35px;
+  }
+
+  .top-content p {
+    text-align: center;
+    font-size: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+
+  .btn-option {
+    padding: 2vw 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+  }
+
+  select {
+    padding: 5px 80px;
+    width: 40px;
+    font-size: 10px;
+    color: black;
+  }
+
+  .top-content button {
+    height: 20px;
+    width: 94px;
+    font-weight: 500;
+    border: none;
+    font-size: 12px;
+  }
+
+  .bottom {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 10vw 5vw;
+  }
+    .bottom h2 {
+      font-size: 15px;
+    }
+
+    .bottom h1 {
+      font-size: 15px;
+    }
+
+    .bottom p {
+      font-size: 7px;
+    }
+
+    .icons {
+      gap: 2vw;
+    }
+
+    .icons i {
+      font-size: 15px;
+    }
+  }
